@@ -1,4 +1,4 @@
-Xylophone App
+### Xylophone App
 Welcome to the Xylophone App, a fun and interactive musical application that lets users play a virtual xylophone! The app is designed to provide a simple and colorful musical experience on multiple devices, including mobile, tablet, and desktop.
 
 ![screencapture](https://github.com/user-attachments/assets/2bd80d08-ccdd-46c8-b59b-711911efc836)
