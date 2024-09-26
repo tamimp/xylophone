@@ -5,13 +5,12 @@ import song3 from "../../assets/Songs/Happy_birthday_Part_2.png";
 import Arrow from "../../assets/Icons/arrow.svg";
 import "./SheetMusic.scss";
 
-// Define the songs with their image sources
-const songs = [{ imageSrc: song1 }, { imageSrc: song2 }, { imageSrc: song3 }];
-
-// Create a function to extract the title from the file name
-const getTitleFromFileName = (fileName) => {
-  return fileName.split("/").pop().split(".")[0].replace(/_/g, " "); // Remove the extension and replace underscores with spaces
-};
+// Define the songs with their image sources and titles
+const songs = [
+  { imageSrc: song1, title: "Twinkle Twinkle Little Star" },
+  { imageSrc: song2, title: "Happy Birthday (Part 1)" },
+  { imageSrc: song3, title: "Happy Birthday (Part 2)" },
+];
 
 const SheetMusic = () => {
   const [currentIndex, setCurrentIndex] = useState(0); // State to track the current song index
@@ -32,11 +31,11 @@ const SheetMusic = () => {
     <div className="sheet-music">
       <div className="sheet-music__current">
         <h3 className="sheet-music__title">
-          🎶{getTitleFromFileName(songs[currentIndex].imageSrc)} 🎶
+          🎶 {songs[currentIndex].title} 🎶
         </h3>
         <img
           src={songs[currentIndex].imageSrc}
-          alt={getTitleFromFileName(songs[currentIndex].imageSrc)}
+          alt={songs[currentIndex].title}
           className="sheet-music__image"
         />
       </div>
