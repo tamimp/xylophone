@@ -5,8 +5,8 @@
     justify-content: center;
     height: 30vh;
     width: 85vw;
-    background: rgb(154,96,22);
-    background: linear-gradient(0deg, rgba(154,96,22,1) 44%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 62%, rgba(154,96,22,1) 62%);
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 40%, rgba(154,96,22,1) 40%, rgba(154,96,22,1) 45%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 50%, rgba(154,96,22,1) 50%, rgba(154,96,22,1) 57%, rgba(255,255,255,1) 57%);
   
     &__bar {
         display: flex;

@@ -1,14 +1,14 @@
 import React from "react";
 import Xylophone from "../../Components/Xylophone/Xylophone";
+import SheetMusic from "../../Components/SheetMusic/SheetMusic";
 import "./MainPage.scss";
 
 const MainPage = () => {
   return (
     <div className="main-page">
-      <h1>Welcome to the Xylophone App</h1>
-      <section className="xylophone-section">
-        <Xylophone />
-      </section>
+      <SheetMusic />
+      <Xylophone />
+      <p>A xylophone for Aaron</p>
     </div>
   );
 };

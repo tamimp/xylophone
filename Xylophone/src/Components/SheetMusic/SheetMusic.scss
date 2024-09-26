@@ -1,0 +1,48 @@
+.sheet-music {
+  text-align: center;
+  margin-bottom: 2rem;
+  width: 100vw;
+  background: repeating-linear-gradient(
+    0deg,
+    #ffffff,
+    #ffffff 10px,
+    #e4e7fa 10px,
+    #e4e7fa 20px
+  );
+
+  &__current {
+    margin: 2rem 0;
+
+    img {
+      width: 70vw; // Optional: limit the maximum width for larger screens
+    }
+
+    &__title {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center; // Change this to center the buttons
+    width: 100%;
+    margin: 1rem 0; // Optional: add margin to separate from content above
+  }
+
+  &__prev-button,
+  &__next-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 10px; // Add horizontal margin for spacing between buttons
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}

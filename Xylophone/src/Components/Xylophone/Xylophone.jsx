@@ -19,49 +19,49 @@ const Xylophone = () => {
     <div className="xylophone">
       <div
         className="xylophone__bar xylophone__bar--do"
-        onMouseEnter={() => playSound(DoSound)}
+        onClick={() => playSound(DoSound)}
       >
         Do
       </div>
       <div
         className="xylophone__bar xylophone__bar--re"
-        onMouseEnter={() => playSound(ReSound)}
+        onClick={() => playSound(ReSound)}
       >
         Re
       </div>
       <div
         className="xylophone__bar xylophone__bar--mi"
-        onMouseEnter={() => playSound(MiSound)}
+        onClick={() => playSound(MiSound)}
       >
         Mi
       </div>
       <div
         className="xylophone__bar xylophone__bar--fa"
-        onMouseEnter={() => playSound(FaSound)}
+        onClick={() => playSound(FaSound)}
       >
         Fa
       </div>
       <div
         className="xylophone__bar xylophone__bar--sol"
-        onMouseEnter={() => playSound(SolSound)}
+        onClick={() => playSound(SolSound)}
       >
         Sol
       </div>
       <div
         className="xylophone__bar xylophone__bar--la"
-        onMouseEnter={() => playSound(LaSound)}
+        onClick={() => playSound(LaSound)}
       >
         La
       </div>
       <div
         className="xylophone__bar xylophone__bar--si"
-        onMouseEnter={() => playSound(SiSound)}
+        onClick={() => playSound(SiSound)}
       >
         Si
       </div>
       <div
         className="xylophone__bar xylophone__bar--do2"
-        onMouseEnter={() => playSound(Do2Sound)}
+        onClick={() => playSound(Do2Sound)}
       >
         Do
       </div>

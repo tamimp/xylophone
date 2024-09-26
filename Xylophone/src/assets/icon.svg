@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>icon</title>
+	<defs>
+		<image  width="32" height="32" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAAA9JREFUeJxjZAACxsFLAAAK8AAhCVrP+AAAAABJRU5ErkJggg=="/>
+		<image  width="32" height="37" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAlCAMAAAAUaRt1AAAAAXNSR0IB2cksfwAAADxQTFRFiyO/JROvQZD3XaQzffpwjPt+8v1f8v1g8ZhP60g/jPp9ivh6iPZ38vxfhvNzhfFwg+5t8fxfguxqgetp0stXAQAAAENJREFUeJxjZGBgYETHjBCMKTGqYFTBqAKcCtj+EFDA/puAAo5fEEU4FXD9IKCA+zsBBTzfIIpwKuD7QkAB/+dBpgAAqOkXczt8XiAAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<use id="Layer 1" href="#img2" x="0" y="0"/>
+</svg>
