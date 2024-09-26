@@ -7,7 +7,7 @@
     justify-content: flex-start; // Align items to the start (top)
   
     .sheet-music {
-      margin-top: 1rem;      // Margin at the top of the Sheet Music
+      margin: 1rem 0;      // Margin at the top of the Sheet Music
     }
   
     .xylophone {
@@ -15,6 +15,7 @@
       display: flex;         // Use flexbox for centering
       justify-content: center; // Center the xylophone horizontally
       align-items: center;    // Center the xylophone vertically within its space
+      padding: 8rem 0;
     }
   }
   

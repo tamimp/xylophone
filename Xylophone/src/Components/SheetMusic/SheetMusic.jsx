@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import song1 from "../../assets/Songs/Twinkle_Twinkle_Little_Star.png";
 import song2 from "../../assets/Songs/Happy_birthday_Part_1.png";
 import song3 from "../../assets/Songs/Happy_birthday_Part_2.png";
+import Arrow from "../../assets/Icons/arrow.svg";
 import "./SheetMusic.scss";
 
 // Define the songs with their image sources
@@ -31,7 +32,7 @@ const SheetMusic = () => {
     <div className="sheet-music">
       <div className="sheet-music__current">
         <h3 className="sheet-music__title">
-          {getTitleFromFileName(songs[currentIndex].imageSrc)}
+          🎶{getTitleFromFileName(songs[currentIndex].imageSrc)} 🎶
         </h3>
         <img
           src={songs[currentIndex].imageSrc}
@@ -41,10 +42,10 @@ const SheetMusic = () => {
       </div>
       <div className="sheet-music__buttons">
         <button className="sheet-music__prev-button" onClick={prevSong}>
-          Back
+          <img src={Arrow} alt="Previous" className="rotate-arrow" />
         </button>
         <button className="sheet-music__next-button" onClick={nextSong}>
-          Next
+          <img src={Arrow} alt="Next" />
         </button>
       </div>
     </div>

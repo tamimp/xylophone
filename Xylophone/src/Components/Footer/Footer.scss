@@ -1,0 +1,15 @@
+.footer {
+    position: fixed; // Fixes the footer to the bottom of the page
+    left: 0;
+    bottom: 0;
+    width: 100%; // Full width
+    background-color: #e4e7fa; // Background color of the footer
+    color: black; // Text color
+    text-align: center; // Center the text Padding for the footer
+    font-size: 1rem; // Font size
+    p{
+    margin: .5rem;
+    padding: 0;
+    }
+  }
+  
